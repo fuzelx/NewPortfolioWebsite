@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,400&family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/56a4b8eed4.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Fuzail Mansuri</title>
+</head>
+<style>
+    body {
+        background: #000000;
+        font-family: 'Manrope', sans-serif;
+    }
+</style>
+
+<body>
+    <div>
+        <section>
+            <div class="flex justify-center flex-col items-center p-2 ">
+                <div class="text-center mt-3 text-2xl md:text-3xl font-bold text-[#FF1E56]">
+                    Fuzail Mansuri
+                </div>
+                <nav id="navbar"
+                    class=" border-white  top-0 duration-200  rounded-full p-4 mt-3 backdrop-blur-lg bg-white/20">
+                    <ul class="flex space-x-3">
+                        <li><a class="text-white text-md" href="#">Projects</a></li>
+                        <li><a class="text-white text-md" href="#about">About me!</a></li>
+                        <li><a class="text-white text-md" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <div class="p-2 flex  justify-center flex-col items-start">
+                <div class="mr-3 mb-6 ml-3 mt-7">
+                    <h1 class=" md:text-9xl text-6xl font-semibold text-[#FF1E56]">Frontend developer <br>
+                        <span class="md:text-9xl text-6xl text-[#323232]">&</span> <br>
+                        <span
+                            class="hover:text-[#FF1E56] md:text-9xl text-6xl font-semibold mt-2 text-[#FFAC41]">designer</span>
+                    </h1>
+                </div>
+                <div class=" mt-8 ml-3 mr-3 flex flex-col md:flex-row justify-between items-center">
+                    <a href="#about"
+                        class="md:px-16 md:py-5 px-11 py-3 rounded-full border-2 border-[#323232] text-[#323232] font-semibold">About
+                        me</a>
+                    <a href="mailto:fuzelxr@gmail.com"
+                        class="md:px-16 md:py-5 px-11 py-3 mt-4 md:ml-2 md:mt-0 rounded-full border-2 border-[#FF1E56] text-[#FF1E56] hover:bg-[#FF1E56] hover:text-black font-bold duration-200">Hire
+                        me &#8702;</a>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="ml-4 mt-10 pt-5">
+            <div>
+                <h3 class="text-6xl md:text-9xl text-[#323232] font-semibold">Projects</h3>
+            </div>
+            <div class="p-3 pt-4 mt-5 flex flex-col justify-center items-start">
+                <a href="#" class="text-[#FF1E56] mt-3 hover:underline text-3xl md:text-7xl font-mediume">Agency Website
+                    &#10138;</a>
+                <a href="#" class="text-[#FF1E56] mt-3 hover:underline text-3xl md:text-7xl font-mediume">Airbnb Clone
+                    &#10138;</a>
+                <a href="#" class="text-[#FF1E56] mt-3 hover:underline text-3xl md:text-7xl font-mediume">Pinterest
+                    clone &#10138;</a>
+                <a href="#" class="text-[#FF1E56] mt-3 hover:underline text-3xl md:text-7xl font-mediume">Creator
+                    website &#10138;</a>
+
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about" class="mt-10 ml-4">
+            <div>
+                <h3 class="text-6xl md:text-9xl text-[#323232] font-semibold">About me!</h3>
+            </div>
+            <div class=" mt-6  p-2">
+                <h4 class="text-[#FFAC41] font-mediume  text-left text-3xl mb-3 md:text-7xl">
+                    I am fuzail mansuri, a <span class="text-[#FF1E56]"> {frontend} </span> web developer from india.
+                </h4>
+                <h4 class="text-[#FFAC41] font-mediume  text-left mb-3 text-3xl md:text-7xl">with proficient in HTML5,
+                    CSS3, JavaScript, Tailwind CSS and React JS, </h4>
+                <h4 class="text-[#FFAC41] font-mediume  text-left text-3xl md:text-7xl"> I can create well designed
+                    websites for brands and content creators. </h4>
+
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id="about" class="mt-10 ml-4">
+            <div>
+                <h3 class="text-6xl md:text-9xl text-[#323232] font-semibold">Contact</h3>
+            </div>
+            <div class=" mt-6  p-2 flex justify-center items-center">
+                <form action="mailto:fuzelxr@gmail.com" class="flex flex-col justify-center" method="post" enctype="text/plain">
+                   
+                
+                    <label for="name">Name:</label>
+                    <input placeholder="Full name" class="p-4 w-64 focus:outline-none focus:border-2 focus:border-[#FF1E56] bg-[#323232]" type="text" id="name" name="name" required>
+                
+                    <label for="email">Email:</label>
+                    <input placeholder="Email" class="p-4 w-64 focus:outline-none focus:border-2 focus:border-[#FF1E56] bg-[#323232]" type="email" id="email" name="email" required>
+                
+                    <label for="location">Location:</label>
+                    <input placeholder="Location(Country)" class="p-4 w-64 focus:outline-none focus:border-2 focus:border-[#FF1E56] bg-[#323232]" type="text" id="location" name="location" required>
+                
+                    <input class=" w-64 p-4 mt-3 bg-[#323232] border-[#323232] hover:bg-[#FF1E56]" type="submit" value="Submit">
+                  </form>
+
+            </div>
+        </section>
+
+
+
+        <!-- footer -->
+        <div class="p-3 mt-6 border-t-[1px] border-[#323232]">
+            <div class="pt-3 pb-3">
+                <h3 class="text-[#323232] text-left font-bold  text-3xl">Fuzail Mansuri</h3>
+            </div>
+            <div class="flex justify-start pt-3 pb-3 items-start">
+                <a href="https://www.linkedin.com/in/fuzail-mansuri-199a08264/"><i class="fa-brands fa-linkedin fa-xl"
+                        style="color: #323232;"></i></a>
+                <a href="https://twitter.com/CodesFlex"><i class="fa-brands fa-square-x-twitter ml-2 fa-xl"
+                        style="color: #323232;"></i></a>
+            </div>
+            <div class="pt-3 pb-3">
+                <p class="text-[#323232] text-base">© 2023 Fuzail Mansuri</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        const nav = document.getElementById('navbar');
+
+        function handleScroll() {
+            // Check the scroll position
+            const scrollPosition = window.scrollY;
+
+            // Add or remove a class based on the scroll position
+            if (scrollPosition > 100) {
+                nav.classList.add('fixed'); // You can replace 'scrolled' with your desired class name
+            } else {
+                nav.classList.remove('fixed');
+            }
+        }
+
+        // Listen for the scroll event
+        window.addEventListener('scroll', handleScroll);
+    </script>
+</body>
+
+</html>
